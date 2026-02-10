@@ -60,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
  * |   `  |   6  |   7  |   8  |   9  |   0  |                    | Home | PgDn | PgUp | End  |Insert|      |
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
- * |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |-------.    ,-------| Home | Left | Down |  Up  |Right | End  |
+ * |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |-------.    ,-------| Left | Down |  Up  |Right | Home | End  |
  * |------+------+------+------+------+------|   [   |    |    ]  |------+------+------+------+------+------|
  * |      |  F8  |  F9  | F10  | F11  | F12  |-------|    |-------|   +  |   -  |   =  |   [  |   ]  |   \  |
  * `-----------------------------------------/       /     \      \-----------------------------------------'
@@ -72,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_RAISE] = LAYOUT(
   FR_HASH, _______, _______, _______, _______, _______,                     _______, _______,      _______,    _______, _______,  KC_PAUSE,
   KC_GRV,  KC_6,    KC_7,    KC_8,    KC_9,    KC_0,                        KC_HOME, KC_PAGE_DOWN, KC_PAGE_UP, KC_END,  KC_INSERT,  _______,
-  KC_F1,  KC_F2,    KC_F3,   KC_F4,   KC_F5,   KC_F6,                       KC_HOME, KC_LEFT,      KC_DOWN,    KC_UP,   KC_RIGHT, KC_END ,
+  KC_F1,  KC_F2,    KC_F3,   KC_F4,   KC_F5,   KC_F6,                       KC_LEFT, KC_DOWN,      KC_UP,      KC_RGHT, KC_HOME, KC_END ,
   _______,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,   _______, _______,  KC_PLUS, KC_MINS,    KC_EQL,     KC_LBRC, KC_RBRC,  KC_BSLS,
                              _______, _______, _______,  _______, _______,  _______, KC_DELETE,    _______
 ),
